@@ -17,11 +17,6 @@
 
     vim: expandtab sw=4 ts=4 sts=4:
 **********************************************************************/
-catch (DoesNotExist $e) { 
-
-        $this->data = new SessionData(['session_id' => $id]); 
-
-        $this->data->session_data = ""; 
 
 require_once(INCLUDE_DIR.'class.csrf.php'); //CSRF token class.
 require_once(INCLUDE_DIR.'class.migrater.php');
